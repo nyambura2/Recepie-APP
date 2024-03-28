@@ -39,9 +39,9 @@ Copy code
 
 ## Contributors
 
-- [Your Name] - [Your Email]
+- [Faith Nyambura] - [nyamburaf12@gmail.com]
 
-## License
+## screenshot
 
 <img width="850" alt="Screenshot 2024-03-28 111410" src="https://github.com/nyambura2/Recepie-App/assets/123564063/0dd56f40-2b94-46d3-aee5-eac77f3a9766">
 <img width="919" alt="Screenshot 2024-03-28 111602" src="https://github.com/nyambura2/Recepie-App/assets/123564063/10ca60ec-57dd-4714-97c7-46d78683107b">
