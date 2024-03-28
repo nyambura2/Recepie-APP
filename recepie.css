@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    background-color: rgb(236, 177, 80);
+    padding-bottom: 20px;
+    min-height: 100vh;
+}
+
+.pagedisplay {
+    color: rgb(1, 1, 21);
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.searchdetails {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%; 
+    max-width: 600px;
+    z-index: 1; 
+}
+
+
+#btn {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(39, 100%, 50%);
+}
+
+
+#inputName {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    flex: 1;
+}
+
+
+#searchresult {
+    text-align: center;
+    color: rgb(75, 107, 7);
+    display: none;
+    margin-bottom: 40px;
+}
+
+#items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    gap: 10px;
+    color: rgb(125, 93, 32);
+}
+
+.item-1 {
+    cursor: pointer;
+}
+
+#details {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    border-radius: 15px;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 10px; */
+    /* margin-top: 40px; */
+    color: rgb(92, 62, 6);
+    /* margin-bottom: 20px; */
+    overflow-y: scroll;
+    overflow-y: scroll; 
+     max-height: 75vh;
+    width: 90%; 
+    margin: 10px;
+    /* margin: 0 auto;  */
+   
+}
+#cancelIcon {
+    width: 20px; 
+    height: 20px; 
+    position: absolute;
+    right: 420px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-color: aliceblue;
+}
+
+
+.instractions {
+    width: 400px;
+}
+
+
+.ingredients {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#ingredient-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#ingredient-list li {
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .searchdetails {
+        width: 100%;
+        margin-right: 400px;
+    }
+
+    #details {
+        width: 100%;
+    }
+}
