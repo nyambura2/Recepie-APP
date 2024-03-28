@@ -15,7 +15,6 @@ This is a simple web application that allows users to search for meal recipes us
 - HTML
 - CSS
 - JavaScript
-- Bootstrap (for styling)
 - MealDB API (https://www.themealdb.com/api.php)
 
 ## Setup
