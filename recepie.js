@@ -68,21 +68,21 @@ function details(id){
      // Hide items when details are displayed
      document.getElementById("items").style.display = "none";
 
-     
+     // Get the cancel icon element
 // const cancelIcon = document.getElementById("cancelIcon");
 
 // Add event listener to the cancel icon
-// cancelIcon.addEventListener("click", () => {
+cancelIcon.addEventListener("click", () => {
     // Remove the details section or hide it based on your requirement
-//     document.getElementById("details").innerHTML = "";
-// });
+    document.getElementById("details").innerHTML = "";
+});
 
 // Show items when cancel button is clicked
-const cancelIcon = document.getElementById("cancelIcon");
-cancelIcon.addEventListener("click", () => {
-    document.getElementById("details").innerHTML = "";
-    document.getElementById("items").style.display = "flex";
-});
+            const cancelIcon = document.getElementById("cancelIcon");
+            cancelIcon.addEventListener("click", () => {
+                document.getElementById("details").innerHTML = "";
+                document.getElementById("items").style.display = "flex";
+            });
 
 }
 function generateIngredientList(meal) {
